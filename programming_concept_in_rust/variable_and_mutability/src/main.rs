@@ -1,9 +1,10 @@
-use core::f32;
-use std::io;
+use std::{io, f32};
 
 fn main() {
     let mut width = String::new();
     let mut length = String::new();
+
+    const CONVERSION_FACTOR :f32 = 10.764;
 
     println!("Please enter the width");
 
@@ -20,7 +21,9 @@ fn main() {
 
     let area = width * length;
 
-    println!("this is the area {}", area);
+    let area_in_square_ft = area / CONVERSION_FACTOR;
+
+    println!("the area is {} sq ft", area_in_square_ft);
 
 
 
