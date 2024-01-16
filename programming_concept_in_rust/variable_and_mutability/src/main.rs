@@ -18,9 +18,10 @@ fn main() {
     let width :f32 = width.trim().parse().expect("Fail to parse width");
     let length:f32 = length.trim().parse().expect("Fail to parse height");
 
-    println!("this is the width {}", width);
+    let area = width * length;
 
-    println!("this is the length {}", length);
+    println!("this is the area {}", area);
+
 
 
 
