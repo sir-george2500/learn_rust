@@ -13,7 +13,7 @@ A simple currency converter program written in Rust. This program converts an am
 2. **Navigate to the project directory:**
 
     ```bash
-    cd rust-currency-converter
+    cd data_types
     ```
 
 3. **Build and run the program:**
