@@ -1,5 +1,6 @@
 
 // declaring a struct
+#[derive(Debug)]
 struct User {
     active: bool,
     username: String,
@@ -15,5 +16,5 @@ fn main() {
         sign_in_count: 1,
     };
 
-    println!("print the user out {}", user1);
+    println!("print the user out {:#?}", user1);
 }
