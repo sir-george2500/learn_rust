@@ -1,0 +1,23 @@
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+
+# Generated files
+Cargo.toml.orig
+
+# VS Code
+.vscode/
+
+# IntelliJ Rust
+.idea/
+
+# Sublime Text
+.sublime-workspace
+
+# Emacs
+*~
+
+# vim
+*.swp
+
